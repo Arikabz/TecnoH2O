@@ -1653,7 +1653,7 @@ input[type="radio"] .styled:checked+label::after {
 }
 
 .logo a {
-	font-size: 40px;
+	font-size: 20px;
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #fff;
