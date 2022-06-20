@@ -1745,6 +1745,7 @@ input[type="radio"] .styled:checked+label::after {
 	background: url(../images/about-bg.png);
 	background-position-x: 0%;
 	background-position-y: 0%;
+	
 	background-repeat: repeat;
 	background-size: auto;
 	height: 500px;
@@ -2513,10 +2514,7 @@ table, tr, td{
 	border: 1px solid;
 	text-align: left;
 }
-a#tienda:link{
-	text-decoration: none;
-	border-color: none;
-}
+
 	
 .fa-angle-right{
 	color: #0fc690;	
