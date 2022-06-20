@@ -1725,8 +1725,13 @@ input[type="radio"] .styled:checked+label::after {
 .about {
 	padding-top: 90px;
 	padding-bottom: 90px;
-	background: #fff;
+	background: #f4f4f4;
 }
+
+.about.equipos{
+	padding-bottom: 0;
+}
+
 
 .top_layer {
 	position: relative;
@@ -1765,6 +1770,13 @@ input[type="radio"] .styled:checked+label::after {
 	margin: 0 auto;
 	margin-bottom: 0px;
 	margin-bottom: 20px;
+}
+.titlepage h1 {
+	border-bottom: #0fc690 solid 1px;
+}
+
+.titlepage h2.noBorder{
+	border-bottom: none;
 }
 
 .about .titlepage span {
@@ -1810,6 +1822,9 @@ input[type="radio"] .styled:checked+label::after {
 	padding-top: 90px;
 	padding-bottom: 60px;
 	background: #f4f4f4;
+}
+.service.equipos{
+	padding-top: 40px;
 }
 
 .service .titlepage span {
@@ -1983,7 +1998,9 @@ img.zoom {
 }
 
 #main_slider .carousel-control-prev,
-#main_slider .carousel-control-next {
+#main_slider .carousel-control-next, 
+#main_slider2 .carousel-control-next, 
+#main_slider2 .carousel-control-prev {
 	width: 55px;
 	height: 55px;
 	background: #000;
@@ -1995,17 +2012,23 @@ img.zoom {
 #main_slider .carousel-control-prev:hover,
 #main_slider .carousel-control-next:hover,
 #main_slider .carousel-control-prev:focus,
-#main_slider .carousel-control-next:focus {
+#main_slider .carousel-control-next:focus,
+#main_slider2 .carousel-control-next:hover, 
+#main_slider2 .carousel-control-prev:hover,
+#main_slider2 .carousel-control-next:focus, 
+#main_slider2 .carousel-control-prev:focus {
 	background: #0fc690;
 	color: #fff;
 }
 
-#main_slider a.carousel-control-prev {
+#main_slider a.carousel-control-prev,
+#main_slider2 a.carousel-control-prev {
 	position: absolute;
 	top: 40%;
 }
 
-#main_slider a.carousel-control-next {
+#main_slider a.carousel-control-next,
+#main_slider2 a.carousel-control-next {
 	position: absolute;
 	top: 40%;
 }
@@ -2413,4 +2436,96 @@ ul.contant_icon li img {
 	left: 10px;
 	top: inherit;
 	bottom: 10px;
+}
+
+
+
+/** custom **/
+
+.serviciosList ul li{
+	text-align: justify;
+	list-style-type: none;
+}
+
+.serviciosList ul{
+ padding-left: 3rem;
+}
+
+.transparent{
+	color: rgba(0, 0, 0, 0);
+}
+
+.popup{
+	width: 600px;
+	background: rgb(244, 251, 248);
+	border-radius: 6px;
+	position:absolute;
+	top: 0;
+	left: 0;
+	transform:translate(-50%,-50%) scale(0.01);
+	text-align: center;
+	padding: 0 30px 30px;
+	color: #333;
+	visibility: hidden;
+	transition: all 0.3s;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.open-popup{
+	visibility: visible;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%) scale(1);
+	opacity: 1;
+	transition: transform 0.4s, top 0.4s;
+
+}
+
+.popup button{
+	width: 35%;
+	margin-top: 50px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 10px 0;
+	background: #0fc690;
+	color: fff;
+	border: 0;
+	outline: none;
+	font-size: 18px;
+	border-radius: 4px;
+	cursor: pointer;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.margin-left{
+	margin-left: 5px;
+}
+.margin-right{
+	margin-right: 5px;
+}
+.text-justify{
+
+	text-align: justify;
+}
+.linky-poo{
+	font-weight: bold;
+}
+table, tr, td{
+	border: 1px solid;
+	text-align: left;
+}
+a#tienda:link{
+	text-decoration: none;
+	border-color: none;
+}
+	
+.fa-angle-right{
+	color: #0fc690;	
+}
+
+.margin-t{
+	margin-top: 50px;
+}
+.titlepage.servicios{
+	margin-bottom: 10px;
+	padding-bottom: 20px;
 }

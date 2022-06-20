@@ -1,0 +1,18 @@
+h1{
+    color: red;
+}
+li{
+    color: pink;
+}
+li.primer {
+    color: blue;
+}
+#uno {
+    color: brown;
+}
+h1{
+    color: yellow;
+}
+div>*{
+    color: blueviolet;
+}
