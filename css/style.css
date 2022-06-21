@@ -2471,6 +2471,11 @@ ul.contant_icon li img {
 	transition: all 0.3s;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
+@media(max-width: 600px){
+	.popup{
+		width: 90vw;
+	}
+}
 .open-popup{
 	visibility: visible;
 	top: 50%;
