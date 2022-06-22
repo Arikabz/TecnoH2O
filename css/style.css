@@ -9,7 +9,14 @@
 
 @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
-
+@font-face {
+	font-family: proxima-nova-reg;
+	src: url(../fonts/FontsFree-Net-proxima_nova_reg-webfont.ttf)
+}
+@font-face {
+	font-family: proxima-nova-bold;
+	src: url(../fonts/FontsFree-Net-proxima_nova_bold-webfont.ttf);
+}
 /*****----------------------------------------
      1) font-family: 'Rajdhani', sans-serif;  
      2) font-family: 'Poppins', sans-serif; 
@@ -47,7 +54,7 @@ html {
 body {
 	color: #666666;
 	font-size: 14px;
-	font-family: 'poppins', sans-serif;
+	font-family: proxima-nova-bold, sans-serif;
 	line-height: 1.80857;
 	font-weight: normal;
 	overflow-x: hidden;
@@ -1647,7 +1654,7 @@ input[type="radio"] .styled:checked+label::after {
 ---------------------------------------------------------------------*/
 
 .header {
-	background: #0fc690;
+	background: #6bcaba;
 	padding: 40px 0px;
 	padding-bottom: 35px;
 }
@@ -1684,8 +1691,8 @@ input[type="radio"] .styled:checked+label::after {
 
 .banner-main .carousel-caption a {
 	text-transform: uppercase;
-	border: #0fc690 solid 1px;
-	background: #0fc690;
+	border: #0d9b8c solid 1px;
+	background: #0d9b8c;
 	width: 196px;
 	padding: 12px 0;
 	display: inline-block;
@@ -1766,14 +1773,14 @@ input[type="radio"] .styled:checked+label::after {
 	font-weight: bold;
 	color: #050303;
 	line-height: 46px;
-	border-bottom: #0fc690 solid 1px;
+	border-bottom: #0d9b8c solid 1px;
 	width: 410px;
 	margin: 0 auto;
 	margin-bottom: 0px;
 	margin-bottom: 20px;
 }
 .titlepage h1 {
-	border-bottom: #0fc690 solid 1px;
+	border-bottom: #0d9b8c solid 1px;
 }
 
 .titlepage h2.noBorder{
@@ -1809,8 +1816,8 @@ input[type="radio"] .styled:checked+label::after {
 }
 
 .about .img-box a:hover {
-	border: #0fc690 solid 1px;
-	background: #0fc690;
+	border: #0d9b8c solid 1px;
+	background: #0d9b8c;
 }
 
 
@@ -1873,7 +1880,7 @@ input[type="radio"] .styled:checked+label::after {
 	font-weight: bold;
 	color: #050303;
 	line-height: 46px;
-	border-bottom: #0fc690 solid 1px;
+	border-bottom: #0d9b8c solid 1px;
 	width: 210px;
 	margin: 0 auto;
 	margin-bottom: 0px;
@@ -1889,7 +1896,7 @@ input[type="radio"] .styled:checked+label::after {
 	text-align: center;
 	display: flex;
 	justify-content: center;
-	background: #0fc690d6;
+	background: #0d9b8cd6;
 	align-items: center;
 	margin: 0 15px;
 }
@@ -2018,7 +2025,7 @@ img.zoom {
 #main_slider2 .carousel-control-prev:hover,
 #main_slider2 .carousel-control-next:focus, 
 #main_slider2 .carousel-control-prev:focus {
-	background: #0fc690;
+	background: #0d9b8c;
 	color: #fff;
 }
 
@@ -2054,14 +2061,14 @@ img.zoom {
 }
 
 .read-more a:hover {
-	background: #0fc690;
+	background: #0d9b8c;
 }
 
 
 /** end download section **/
 
 .testimonial {
-	background: #0fc690;
+	background: #0d9b8c;
 	padding: 60px 0px;
 }
 
@@ -2099,7 +2106,7 @@ img.zoom {
 }
 
 .carousel-caption.relat h3 {
-	color: #0fc690;
+	color: #0d9b8c;
 	font-size: 20px;
 	text-transform: uppercase;
 	line-height: 20px;
@@ -2123,7 +2130,7 @@ img.zoom {
 #testimonial_slider .carousel-control-prev:focus,
 #testimonial_slider .carousel-control-next:focus {
 	color: #fff;
-	background: #0fc690;
+	background: #0d9b8c;
 	width: 50px;
 	height: 50px;
 }
@@ -2197,8 +2204,8 @@ img.zoom {
 }
 
 .testimonial .contact .send:hover {
-	background-color: #0fc690;
-	border: #0fc690 solid 1px;
+	background-color: #0d9b8c;
+	border: #0d9b8c solid 1px;
 	color: #fff;
 }
 
@@ -2207,7 +2214,7 @@ img.zoom {
 }
 
 .footer {
-	background: #023023;
+	background: #096b61;
 	padding-top: 55px;
 }
 
@@ -2312,8 +2319,8 @@ ul.contant_icon li img {
 
 .footer .address .submit-btn {
 	padding: 5px 29px;
-	border: #0fc690 solid 1px;
-	background: #0fc690;
+	border: #0d9b8c solid 1px;
+	background: #0d9b8c;
 	color: #fff;
 	font-weight: 500;
 	font-size: 20px;
@@ -2339,7 +2346,7 @@ ul.contant_icon li img {
 }
 
 .copyright a:hover {
-	color: #0fc690
+	color: #0d9b8c
 }
 
 
@@ -2421,7 +2428,7 @@ ul.contant_icon li img {
 #myCarousel .carousel-control-next:hover,
 #myCarousel .carousel-control-prev:focus,
 #myCarousel .carousel-control-next:focus {
-	background: #0fc690;
+	background: #0d9b8c;
 	color: #fff;
 }
 
@@ -2492,7 +2499,7 @@ ul.contant_icon li img {
 	margin-left: 5px;
 	margin-right: 5px;
 	padding: 10px 0;
-	background: #0fc690;
+	background: #0d9b8c;
 	color: fff;
 	border: 0;
 	outline: none;
@@ -2521,9 +2528,9 @@ table, tr, td{
 }
 
 	
-.fa-angle-right{
-	color: #0fc690;	
-}
+/* .fa-angle-right{
+	color: #0d9b8c;	
+} */
 
 .margin-t{
 	margin-top: 50px;
@@ -2533,4 +2540,17 @@ table, tr, td{
 	padding-bottom: 20px;
 }
 
+.logo a img{
+	height: 40px;
+}
 
+img.logo-about{
+	max-width: 80%;
+}
+
+a.ag-softwarez{
+	color: #38c8a8;
+}
+.ag-softwarez:hover{
+	color: #2676bb;
+}
