@@ -24,8 +24,47 @@ function closePopup3(){
 let tienda = document.getElementById('tiendaButton');
 
 function goToTienda(){
-    window.open("https://mercadolibre.com.mx","_blank")
+    window.open("https://tecnoh2o.mercadoshops.com.mx/","_blank")
 }
 function goToEquipos(){
     location.href = "equipos.html";
 }
+
+//whatsapp button
+
+const select = (el, all = false) => {
+    el = el.trim()
+    if (all) {
+      return [...document.querySelectorAll(el)]
+    } else {
+      return document.querySelector(el)
+    }
+  }
+
+  const on = (type, el, listener, all = false) => {
+    let selectEl = select(el, all)
+    if (selectEl) {
+      if (all) {
+        selectEl.forEach(e => e.addEventListener(type, listener))
+      } else {
+        selectEl.addEventListener(type, listener)
+      }
+    }
+  }
+
+  const onscroll = (el, listener) => {
+    el.addEventListener('scroll', listener)
+  }
+
+let whastapp = select('.wa-always-on')
+  if (whastapp) {
+    const toggleWhatsapp = () => {
+      if (window.scrollY > 100) {
+        whastapp.classList.add('active')
+      } else {
+        whastapp.classList.remove('active')
+      }
+    }
+    window.addEventListener('load', toggleWhatsapp)
+    onscroll(document, toggleWhatsapp)
+  } 

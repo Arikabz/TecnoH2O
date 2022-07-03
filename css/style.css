@@ -2558,7 +2558,40 @@ a.ag-softwarez{
 .ag-softwarez:hover{
 	color: #2676bb;
 }
+.align-right{
+	text-align: right;
+}
 
+.wa-always-on{
+	position:fixed;
+	visibility: hidden;
+	opacity: 0;
+	right: 15px;
+	bottom: 15px;
+	z-index: 1090;
+	background: #578f89;
+	border-radius: 50%;
+	width:70px;
+	height: 70px;
+	transition: all 1s;
+  }
+  .wa-always-on i {
+	font-size: 35px;
+	color: #fff;
+	line-height: 0;
+  }
+  .wa-always-on:hover{
+	background: #0d9b8c;
+	color: #fff;  
+  }
+  .wa-always-on.active{
+	visibility: visible;
+	opacity: 1;
+  }
+  .border-a-bit{
+	padding: 0 1em;
+	margin-bottom: 25px;
+  }
 
 /* meanmenu */ 
 /*--------------------------------------------------------------------- File Name: meanmenu.css ---------------------------------------------------------------------*/
