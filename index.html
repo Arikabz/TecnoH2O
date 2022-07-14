@@ -465,24 +465,28 @@
                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                   <div class="contact">
                      <h3>¡Contáctanos!</h3>
-                     <form>
+                     <form class="php-email-form" action="https://formspree.io/f/xlezykpn" method="POST">
                         <div class="row">
                            <div class="col-sm-12">
-                              <input class="contactus" placeholder="Nombre" type="text" name="Name">
+                              <input class="contactus" placeholder="Nombre" type="text" name="Nombre">
                            </div>
                            <div class="col-sm-12">
-                              <input class="contactus" placeholder="Tel" type="text" name="Email">
+                              <input class="contactus" placeholder="Tel" type="text" name="Tel.">
                            </div>
                            <div class="col-sm-12">
                               <input class="contactus" placeholder="Email" type="text" name="Email">
                            </div>
                            <div class="col-sm-12">
-                              <textarea class="textarea" placeholder="Mensaje" type="text" name="Message"></textarea>
+                              <textarea class="textarea" placeholder="Mensaje" type="text" name="Mensaje"></textarea>
                            </div>
                            <div class="col-sm-12 ">
                               <p class="border-a-bit">Al enviar este formato acepta haber leído nuestro <a href="aviso-de-privacidad.html">Aviso de Privacidad</a>.</p>
                            </div>
-                           
+                           <div class="my-3">
+                              <div class="loading">Loading</div>
+                              <div class="error-message">Error</div>
+                              <div class="sent-message">Mensaje enviado. ¡Gracias!</div>
+                            </div>
                            <div class="col-sm-12">
                               <button class="send">Enviar</button>
                            </div>
